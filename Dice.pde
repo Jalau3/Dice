@@ -7,7 +7,6 @@ class Die{
     xCoord = x;
     yCoord = y;
     side = (int)(Math.random()*6)+1;
-    System.out.println(side);
   }
   void show(){
     fill(255);
